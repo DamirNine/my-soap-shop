@@ -88,7 +88,7 @@ document.addEventListener('click', (e) => {
       </div>
       <div class="footer-sub" style="margin-bottom: 12px;">Социальные сети</div>
       <div id="contacts" class="footer-links">
-        <a href="https://t.me/DamiNature" target="_blank" class="footer-icon">
+        <a href="https://t.me/EmiliaHortis" target="_blank" class="footer-icon">
           <img src="https://cdn.simpleicons.org/telegram/4a7c59" alt="Telegram" onerror="this.outerHTML='Telegram'">
           <span>Telegram<br>канал</span>
         </a>
