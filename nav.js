@@ -92,7 +92,7 @@ document.addEventListener('click', (e) => {
           <img src="https://cdn.simpleicons.org/telegram/4a7c59" alt="Telegram" onerror="this.outerHTML='Telegram'">
           <span>Telegram<br>канал</span>
         </a>
-        <a href="https://instagram.com/dami.nature" target="_blank" class="footer-icon">
+        <a href="https://www.instagram.com/emilia_hortis" target="_blank" class="footer-icon">
           <img src="https://cdn.simpleicons.org/instagram/4a7c59" alt="Instagram" onerror="this.outerHTML='Instagram'">
           <span>Instagram</span>
         </a>
