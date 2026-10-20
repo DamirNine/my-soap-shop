@@ -178,7 +178,7 @@ header {
 }
 .hero-title {
   font-family: 'Pinyon Script', 'Marck Script', cursive;
-  font-size: 260px;
+  font-size: 220px;
   color: #ffffff;
   line-height: 1;
   margin-top: 180px;
@@ -587,7 +587,7 @@ footer {
   .hero { padding: 60px 20px; padding-bottom: 360px; background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('images/hero-mobile.jpg') !important; background-size: cover !important; background-position: center 30% !important; min-height: 115vh; }
   .hero-btns { flex-direction: column; align-items: center; }
   .footer-links { flex-direction: row; flex-wrap: nowrap; gap: 16px; justify-content: center; }
-  .hero-title { font-size: 100px; margin-top: 40px; margin-bottom: 6px; }
+  .hero-title { font-size: 86px; margin-top: 40px; margin-bottom: 6px; }
   .hero-sub { font-size: 17px; letter-spacing: 2px; margin-bottom: 20px; }
   .section { padding: 48px 20px; }
   .cat-grid { grid-template-columns: repeat(2, 1fr); }
@@ -615,7 +615,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .hero-title { font-size: 80px; margin-top: 20px; margin-bottom: 6px; }
+  .hero-title { font-size: 68px; margin-top: 20px; margin-bottom: 6px; }
   .hero-sub { font-size: 15px; letter-spacing: 1.5px; margin-bottom: 20px; }
   .cat-grid { grid-template-columns: repeat(2, 1fr); }
   .products-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
