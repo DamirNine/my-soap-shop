@@ -53,7 +53,7 @@ document.addEventListener('click', (e) => {
   const header = `
     <header>
       <a href="index.html" class="logo">
-        <span class="logo-title">Дами</span>
+        <span class="logo-title">Emilia Hortis</span>
         <span class="logo-sub">С заботой от природы</span>
       </a>
       <nav class="main-nav">
@@ -78,7 +78,7 @@ document.addEventListener('click', (e) => {
 
   const footer = `
     <footer>
-      <div class="footer-logo">Дами</div>
+      <div class="footer-logo">Emilia Hortis</div>
       <div class="contact-menu footer-cta-wrap">
         <button class="footer-cta" onclick="toggleContactMenu(this)">Написать</button>
         <div class="contact-dropdown">
@@ -102,7 +102,7 @@ document.addEventListener('click', (e) => {
         </a>
       </div>
       <div class="footer-sub" style="margin-top: 16px; margin-bottom: 12px;">Москва</div>
-      <div class="footer-copy">© 2026 Дами</div>
+      <div class="footer-copy">© 2026 Emilia Hortis</div>
     </footer>
   `;
 

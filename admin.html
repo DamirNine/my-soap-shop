@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>ДАМИ — Управление</title>
+  <title>Emilia Hortis — Управление</title>
   <style>
     :root {
       --bg:      #111;
@@ -191,7 +191,7 @@
 
 <div id="login-screen">
   <div class="login-logo">🧼</div>
-  <div class="login-title">ДАМИ</div>
+  <div class="login-title">Emilia Hortis</div>
   <div class="login-sub">Панель управления</div>
   <div class="login-form">
     <div class="field-group">
@@ -211,7 +211,7 @@
 
 <div id="main-screen" class="hidden">
   <div class="header">
-    <div class="header-title">🧼 ДАМИ</div>
+    <div class="header-title">🧼 Emilia Hortis</div>
     <div style="display:flex;align-items:center;gap:6px">
       <button class="btn btn-small btn-accent" id="add-btn" onclick="openAdd()">+ Добавить</button>
       <button class="btn-icon" onclick="confirmLogout()">↩</button>
@@ -739,7 +739,7 @@ function makeProductsJs(arr) {
       : '';
     return `  { id: ${p.id}, name: ${jss(p.name)}, category: ${jss(p.category)}, subcategory: ${p.subcategory === null ? 'null' : jss(p.subcategory)},\n    description: ${jss(p.description || '')},\n    weight: ${p.weight == null ? 'null' : jss(p.weight)}, price: ${p.price == null ? 'null' : p.price}, image: ${p.image == null ? 'null' : jss(p.image)}${imagesStr}, featured: ${!!p.featured} }`;
   });
-  return `// Обновлено через панель управления ДАМИ: ${ts}\n\nconst PRODUCTS = [\n\n${lines.join(',\n\n')}\n\n];\n`;
+  return `// Обновлено через панель управления Emilia Hortis: ${ts}\n\nconst PRODUCTS = [\n\n${lines.join(',\n\n')}\n\n];\n`;
 }
 
 function renderSiteTab() {
@@ -922,7 +922,7 @@ function makeConfigJs(cfg) {
   const ts = new Date().toLocaleString('ru-RU');
   const q  = v => v == null ? 'null' : jss(v);
   const gallery = (cfg.setsGallery || []).map(jss).join(', ');
-  return `// Настройки сайта ДАМИ. Обновлено: ${ts}\n\nconst CONFIG = {\n  hero: {\n    image: ${q(cfg.hero && cfg.hero.image)}\n  },\n  about: {\n    image: ${q(cfg.about && cfg.about.image)},\n    text: ${jss((cfg.about && cfg.about.text) || '')}\n  },\n  categoryCards: {\n    soap: ${q(cfg.categoryCards && cfg.categoryCards.soap)},\n    cosmetics: ${q(cfg.categoryCards && cfg.categoryCards.cosmetics)},\n    teas: ${q(cfg.categoryCards && cfg.categoryCards.teas)},\n    sets: ${q(cfg.categoryCards && cfg.categoryCards.sets)}\n  },\n  setsGallery: [${gallery}]\n};\n`;
+  return `// Настройки сайта Emilia Hortis. Обновлено: ${ts}\n\nconst CONFIG = {\n  hero: {\n    image: ${q(cfg.hero && cfg.hero.image)}\n  },\n  about: {\n    image: ${q(cfg.about && cfg.about.image)},\n    text: ${jss((cfg.about && cfg.about.text) || '')}\n  },\n  categoryCards: {\n    soap: ${q(cfg.categoryCards && cfg.categoryCards.soap)},\n    cosmetics: ${q(cfg.categoryCards && cfg.categoryCards.cosmetics)},\n    teas: ${q(cfg.categoryCards && cfg.categoryCards.teas)},\n    sets: ${q(cfg.categoryCards && cfg.categoryCards.sets)}\n  },\n  setsGallery: [${gallery}]\n};\n`;
 }
 
 function openConfirm(title, text, onOk) {

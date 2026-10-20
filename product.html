@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Товар — Дами</title>
+  <title>Товар — Emilia Hortis</title>
   <link rel="stylesheet" href="style.css?v=54">
   <style>
     .product-page {
@@ -180,7 +180,7 @@
   </div>
 
   <script>document.write('<script src="products.js?v=' + Date.now() + '"><\/script>')</script>
-  <script src="nav.js?v=6"></script>
+  <script src="nav.js?v=7"></script>
   <script>
   const CAT_LABEL = {
     soap: 'Мыло', face: 'Для лица', body: 'Для тела', hair: 'Для волос', tea: 'Чаи', set: 'Наборы'
@@ -198,7 +198,7 @@
   if (!p) {
     container.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:80px;color:var(--muted)">Товар не найден</div>';
   } else {
-    document.title = `${p.name.replace(/ для .+/, '')} — Дами`;
+    document.title = `${p.name.replace(/ для .+/, '')} — Emilia Hortis`;
     const backHref = CAT_PAGE[p.category]  || 'cosmetics.html';
     const backLabel= CAT_LABEL[p.category] || 'Каталог';
     const priceHtml  = p.price  ? `<span class="product-page-price">${p.price.toLocaleString('ru')} ₽</span>` : '';
