@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Pinyon+Script&family=Raleway:wght@400;500;600;700&display=swap');
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -44,8 +44,8 @@ header {
 
 .logo { display: flex; flex-direction: column; line-height: 1; }
 .logo-title {
-  font-family: 'Marck Script', cursive;
-  font-size: 34px;
+  font-family: 'Pinyon Script', 'Marck Script', cursive;
+  font-size: 40px;
   color: var(--text);
   letter-spacing: 1px;
   font-weight: 400;
@@ -177,7 +177,7 @@ header {
   padding-bottom: 280px;
 }
 .hero-title {
-  font-family: 'Marck Script', cursive;
+  font-family: 'Pinyon Script', 'Marck Script', cursive;
   font-size: 260px;
   color: #ffffff;
   line-height: 1;
@@ -498,7 +498,7 @@ footer {
   padding: 20px 48px;
 }
 .footer-logo {
-  font-family: 'Marck Script', cursive;
+  font-family: 'Pinyon Script', 'Marck Script', cursive;
   font-size: 52px;
   color: var(--text);
   margin-bottom: 4px;
